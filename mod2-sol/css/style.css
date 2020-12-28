@@ -33,6 +33,15 @@ h1 {
   margin: 15px;
   background-color: #aaaaaa;
 }
+#title1 {
+  background-color:pink;
+}
+#title2 {
+  background-color:orange;
+}
+#title3 {
+  background-color:purple;
+}
 /********** Desktop devices only **********/
 @media (min-width: 992px) {
   .col-desktop-1, .col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6, .col-desktop-7, .col-desktop-8, .col-desktop-9, .col-desktop-10, .col-desktop-11, .col-desktop-12 {
