@@ -1,0 +1,12 @@
+h2 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+#col-content div {
+  background-color: #ccc;
+  margin: 0px 15px 50px 15px;
+  padding: 30px 15px 10px 15px;
+}
+#col-content div h3 {
+  margin-bottom: 20px;
+}
