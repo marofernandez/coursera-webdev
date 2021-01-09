@@ -5,17 +5,17 @@
       $scope.messageOutput = '';
 
       $scope.checkButton = function () {
-        var color = 'revert';
+        var classColor = '';
         var listToCheck = removeEmptyItems($scope.lunchMenu);
 
         if (listToCheck.length > 0) {
           $scope.messageOutput = checkLunchList(listToCheck);
-          color = 'green';
+          classColor = 'greenMessage';
         } else {
           $scope.messageOutput = "Please enter data first";
-          color = 'red';
+          classColor = 'redMessage';
         }
-        document.querySelector("[ng-model='msgPlaceholder']").style.color = color;
+        $scope.messageClass = classColor;
 
       };
 
