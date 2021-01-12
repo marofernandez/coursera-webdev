@@ -1,0 +1,13 @@
+<div class="row">
+  <ul>
+    <li class="itemInList" ng-repeat="itm in itemsList.found">
+      <span class="itemShort">{{itm.short_name}}</span>
+      <span class="itemName"> - {{itm.name}}</span>
+      <span class="itemDesc">( {{itm.description}} )</span>
+      <span class="itemButton"><button class="btn btn-secondary btn-sm" ng-click="itemsList.onRemove($index)">Don't want this one!</button></span>
+    </li>
+  </ul>
+  <div class="notFound" ng-show="itemsList.isEmpty()">
+    Nothing found.
+  </div>
+</div>
